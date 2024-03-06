@@ -20,7 +20,8 @@ metadata:
     pipelinesascode.tekton.dev/task-7: ".tekton/acs-deploy-check.yaml"
     pipelinesascode.tekton.dev/task-8: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/main/pac/tasks/show-sbom.yaml"
     pipelinesascode.tekton.dev/task-9: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/main/pac/tasks/summary.yaml"
-    pipelinesascode.tekton.dev/task-10: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/main/pac/tasks/update-deployment.yaml"
+    #pipelinesascode.tekton.dev/task-10: "https://raw.githubusercontent.com/redhat-appstudio/tssc-sample-pipelines/main/pac/tasks/update-deployment.yaml"
+    pipelinesascode.tekton.dev/task-10: ".tekton/update-deployment.yaml"
   labels:
     argocd/app-name: testgo
     janus-idp.io/tekton: testgo
