@@ -42,6 +42,8 @@ spec:
       value: .
     - name: revision
       value: '{{revision}}'
+    - name: event-type
+      value: {{event_type}}
   pipelineRef:
     name: docker-build-rhtap
   workspaces:
