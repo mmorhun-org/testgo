@@ -1,4 +1,4 @@
-test change 2222
+test change
 
 # Creating an application with a Go code sample
 
